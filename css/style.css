@@ -1,0 +1,65 @@
+html{
+	position: relative;
+}
+
+body{
+	margin-bottom: 120px;
+}
+
+.jumbotron img{
+	width: 200px;
+	border: 5px solid #666;
+}
+
+hr{
+	width: 200px;
+	border-top: 3px solid #999;
+}
+
+section{
+	min-height: 600px;
+}
+
+.portfolio{
+	background-color: #eee;
+}
+
+.kontak{
+	min-height: 800px;
+}
+
+.kontak button{
+	float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p{
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i{
+	color: salmon;
+}
