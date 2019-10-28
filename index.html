@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,30 @@
     <![endif]-->
   </head>
   <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#home">Arif Rusman</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="page-scroll">About</a></li>
+            <li><a href="#" class="page-scroll">Portofolio</a></li>
+            <li><a href="#" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
 
     <!-- jumbotron -->
     <div class="jumbotron text-center">
@@ -108,7 +132,7 @@
 
 
     <!-- kontak -->
-    <section class="kontak cf">
+    <section class="contact cf" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -170,9 +194,17 @@
     </footer>
     <!-- akhir footer -->
 
+    <!-- Menggunakan jquery secara online -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Menggunakan jquery secara offline -->
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menghubungkan dengan jquery buatan sendiri -->
+    <!-- <script src="js/script.js"></script> -->
   </body>
 </html>

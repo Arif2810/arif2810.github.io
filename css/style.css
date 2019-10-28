@@ -4,11 +4,27 @@ html{
 
 body{
 	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.jumbotron{
+	height: 450px;
+	background-image: url('../img/header-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -100px;
+	color: #eee;
+	background-repeat: no-repeat;
 }
 
 .jumbotron img{
 	width: 200px;
-	border: 5px solid #666;
+	border: 5px solid #e8e8e8;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
 }
 
 hr{
@@ -17,18 +33,18 @@ hr{
 }
 
 section{
-	min-height: 600px;
+	min-height: 500px;
 }
 
 .portfolio{
 	background-color: #eee;
 }
 
-.kontak{
-	min-height: 800px;
+.contact{
+	min-height: 700px;
 }
 
-.kontak button{
+.contact button{
 	float: right;
 }
 
